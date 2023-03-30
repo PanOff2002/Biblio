@@ -18,6 +18,10 @@ namespace ClassLibrary1
             {
                 return "Тульская область";
             }
+            if (number == 05)
+            {
+                return "Дагестан";
+            }
             return "номер не найден в базе";
         }
     }
