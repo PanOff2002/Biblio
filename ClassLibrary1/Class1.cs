@@ -14,7 +14,11 @@ namespace ClassLibrary1
             {
                 return "Республика Адыгея";
             }
-            return "номер не найден в базе";
+            if (number == 71 || number == 171 || number == 771||number==971)
+            {
+                return "Тульская область";
+            }
+                return "номер не найден в базе";
         }
     }
 }
